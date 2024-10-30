@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        .header, .nav, .main, .first-aside, .second-aside, .footer{
+            border: 2px solid black;
+            background-color: bisque;
+        }
+
+        .container{
+            display: grid;
+            grid-template-areas: 
+            "header header header header"
+            "nav main main first-aside"
+            "nav main main second-aside"
+            "footer footer footer footer"
+             ;
+        }
+
+
+
+        .header{
+            grid-area: header;
+
+        }
+        .nav{
+            grid-area: nav;
+        }
+        .main{
+            grid-area: main ;
+        }
+        .first-aside{
+            grid-area: first-aside;
+        }
+        .second-aside{
+            grid-area: second-aside;
+        }
+        .footer{
+            grid-area: footer;
+        }
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body class="container">
+    <HEADER class="header">
+        <h1 >header</h1>
+    </HEADER>
+    <nav class="nav"> 
+        <li>n</li>
+        <li>a</li>
+        <li>v</li>
+    </nav>
+    <main class="main">
+        <article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis laboriosam nulla rerum nam sapiente, illo unde dicta ex, quaerat laborum itaque, est commodi? Pariatur eveniet mollitia natus, reprehenderit molestiae beatae.</article>
+        <article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis laboriosam nulla rerum nam sapiente, illo unde dicta ex, quaerat laborum itaque, est commodi? Pariatur eveniet mollitia natus, reprehenderit molestiae beatae.</article>
+    </main>
+    <aside class="first-aside">
+        <p>First aside</p>
+    </aside>
+    <aside class="second-aside">
+        <p>Second aside</p>
+    </aside>
+    <footer class="footer">
+        <h1>footer</h1>
+    </footer>
+
+
+</body>
+</html>

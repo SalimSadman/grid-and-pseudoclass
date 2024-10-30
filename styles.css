@@ -1,0 +1,20 @@
+.container{
+    display:flex;
+    /* justify-content: space-evenly; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    border:5px  dashed blueviolet;
+    height: 100vh;
+    
+
+}
+
+.item{
+    border: 2px solid green;
+    width: 100%;
+   
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            width:100px;
+            height: 35px;
+            background-color: red;
+            color: azure;
+            border-radius: 15px;
+        }
+
+        button:hover{
+            background-color: blue;
+            border: none;
+            box-shadow: 5px 5px 15px yellowgreen;
+
+        }
+
+        a:visited{
+            color:rgb(194, 25, 25);
+             
+        }
+        /* li:last-child{
+            color: pink;
+        }
+        li:first-child{
+            color:chocolate
+        } */
+        li:nth-child(3n){
+            color:yellowgreen;
+        }
+        /* P::after{
+            content:" Hungry"; 
+        } */
+         /* p::first-letter{
+            color: Red;
+            font-size: 30px;
+            font-weight: 700;
+         } */
+         p::first-line{
+            font-size: 30px;
+            font-weight: 700;
+         }
+
+         ::selection{
+            background-color: red;
+            color:whitesmoke;
+         }
+         li::selection{
+            background-color: pink;
+            color:blue;
+         }
+
+
+    </style>
+</head>
+<body>
+
+    <button>Submit</button>
+    <br>
+    <br>
+
+    <a href="https://www.facebook.com">Facebook</a>
+    <br>
+    <a href="https://www.youtube.com">YT</a>
+
+    <ul>
+        <li>Alu</li>
+        <li>Peyaj</li>
+        <li>Morich</li>
+        <li>Roshun</li>
+        <li>chocolate</li>
+        <li>icecream</li>
+        <li>biscuit</li>
+    </ul>
+    <p>Pranto</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Voluptatem consequuntur nesciunt iusto odit quis placeat, ullam id temporibus. Odit delectus quidem obcaecati veritatis nulla. Alias cum ratione velit sed? Ullam exercitationem aliquid maiores qui autem optio possimus nisi porro sint.</p>
+
+
+    
+</body>
+</html>
